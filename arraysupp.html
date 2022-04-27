@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> ES6 - array supporting methods</h1>
+    <p id = "abc"></p>
+    <p id = " xyz"></p>
+    <p id = " one"></p>
+</body>
+<script>
+    let shirts = [
+        {productName : "shirtOne", size: 40, price: 500},
+        {productName : "shirtTwo", size: 45, price: 600},
+        {productName : "shirtThree", size: 48, price: 700},
+        {productName : "shirtFour", size: 47, price: 1100},
+        {productName : "shirtFive", size: 44, price: 1500},
+
+    ];
+    var result = "";
+    let one = shirts.map(myFun);
+    function myFun (Value, index){
+        result += vakye,oridyctName + "index:" + index + "<br/>"
+    }
+    document.getElementById("abc").innerHTML= JSON.stringify(shirts);
+    document.getElementById("xyz").innerHTML = result;
+</script>
+</html>
